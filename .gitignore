@@ -5,6 +5,10 @@
 ### MicrosoftOffice ###
 *.tmp
 
+*.docx
+*.xlsx
+*.pptx
+
 # Word temporary
 ~$*.doc*
 
