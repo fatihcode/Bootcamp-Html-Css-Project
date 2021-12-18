@@ -1,13 +1,12 @@
-
-# Created by https://www.toptal.com/developers/gitignore/api/microsoftoffice
-# Edit at https://www.toptal.com/developers/gitignore?templates=microsoftoffice
-
 ### MicrosoftOffice ###
 *.tmp
-
 *.docx
 *.xlsx
 *.pptx
+*.doc
+*.xls
+*.ppt
+
 
 # Word temporary
 ~$*.doc*
@@ -27,4 +26,3 @@ Backup of *.doc*
 # Visio autosave temporary files
 *.~vsd*
 
-# End
