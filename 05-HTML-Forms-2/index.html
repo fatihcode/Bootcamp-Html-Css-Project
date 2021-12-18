@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+
+  <title>User Input</title>
+</head>
+
+<body>
+
+  <header>
+    <div>
+      <!-- fix missing parts only -->
+      <img src="Wikipedia-logo.webp" alt="wikipedia">
+      <button type="button">
+        <i class="fa fa-lock" aria-hidden="true"></i>
+        Sign in
+      </button>
+      <p>
+        Already have an Bootcamp account? <br> <a href="#">I forgot my User ID or Password</a>
+      </p>
+    </div>
+
+  </header>
+  <main>
+    <!--add "action" and "method" for this form  -->
+    <form action="login.html" method="get">
+      <fieldset>
+        <!-- Add your code in this fieldset-->
+        <p>One Account. <br> Everyting Bootcamp.</p>
+        <p>Create an account for all of Bootcamp's products including hinter. <a href="#"> Learn More</a></p>
+        <div>
+          <label for="mail">Email address</label>
+          <input type="email" name="form" id="mail" required>
+        </div>
+        <div>
+          <label for="phone">Phone (recommended)</label>
+          <input type="tel" name="form" id="phone" pattern="[0-9]{10}">
+          <span>Enter your phone number 10 digits without starting with "0".</small>
+        </div>
+        <div>
+          <label for="pass">Password</label>
+          <input type="password" name="form" id="pass" required>
+        </div>
+        <div>
+          <button type="submit">
+            <i class="fa fa-lock"></i>
+            Create Account
+          </button>
+        </div>
+        <p> By clicking Create Account, you agree to our <br> <a href="#" target="_blank"> License Agreement</a> and have read and acknowledge our <a href="#"> Privacy Statement.</a></p>
+      </fieldset>
+    </form>
+    <!-- end of sign-in-form-container -->
+  </main>
+
+  <footer>
+    <!-- add footer -->
+     <ul>      
+      <li><a href="#">Help</a></li>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">About us</a></li>
+    </ul>
+  </footer>
+</body>
+</html>
