@@ -1,0 +1,39 @@
+body{
+    font-family: Georgia ;
+    background-image: url("hypnotize_bg.png");
+    background-repeat: repeat;
+}
+
+h1{
+    font-family: 'Redressed', cursive;
+    color: azure;
+}
+
+.header img{
+display: block;
+width: 800px;
+}
+
+.header {
+    background-color: royalblue;
+    text-align: center;
+}
+
+.about-me {
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+p img{
+    width: 12px;
+    border-radius: 25px;
+}

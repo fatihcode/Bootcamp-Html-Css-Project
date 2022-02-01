@@ -1,0 +1,344 @@
+
+.bg-aqua {
+  background-color: #7FDBFF;
+  
+}
+.bg-black {
+  background-color: #111111;
+  
+}
+.bg-blue {
+  background-color: #0074D9;
+  
+}
+.bg-fuchsia {
+  background-color: #F012BE;
+  
+}
+.bg-green {
+  background-color: #2ECC40;
+  
+}
+.bg-lime {
+  background-color: #01FF70;
+  
+}
+.bg-maroon {
+  background-color: #85144b;
+  
+}
+.bg-navy {
+  background-color: #001f3f;
+  
+}
+.bg-olive {
+  background-color: #3D9970;
+  
+}
+.bg-orange {
+  background-color: #FF851B;
+  
+}
+.bg-purple {
+  background-color: #B10DC9;
+  
+}
+.bg-red {
+  background-color: #FF4136;
+  
+}
+.bg-silver {
+  background-color: #DDDDDD;
+  
+}
+.bg-gray {
+  background-color: #AAAAAA;
+  
+}
+.bg-teal {
+  background-color: #39CCCC;
+  
+}
+.bg-white {
+  background-color: #FFFFFF;
+  
+}
+.bg-yellow {
+  background-color: #FFDC00;
+  
+}
+
+.default-aqua {
+  background-color: aqua;
+  
+}
+.default-black {
+  background-color: black;
+  
+}
+.default-blue {
+  background-color: blue;
+  
+}
+.default-fuchsia {
+  background-color: fuchsia;
+  
+}
+.default-gray {
+  background-color: gray;
+  
+}
+.default-green {
+  background-color: green;
+  
+}
+.default-lime {
+  background-color: lime;
+  
+}
+.default-maroon {
+  background-color: maroon;
+  
+}
+.default-navy {
+  background-color: navy;
+  
+}
+.default-olive {
+  background-color: olive;
+  
+}
+.default-orange {
+  background-color: orange;
+  
+}
+.default-purple {
+  background-color: purple;
+  
+}
+.default-red {
+  background-color: red;
+  
+}
+.default-silver {
+  background-color: silver;
+  
+}
+.default-teal {
+  background-color: teal;
+  
+}
+.default-white {
+  background-color: white;
+  
+}
+.default-yellow {
+  background-color: yellow;
+  
+}
+
+.aqua {
+  color: hsl(181, 100%, 74%);
+}
+.blue {
+  color: hsl(231, 100%, 50%);
+}
+.navy {
+  color: hsl(234, 100%, 25%);
+}
+.teal {
+  color: hsl(182, 49%, 61%);
+}
+.green {
+  color: hsl(103, 55%, 52%);
+}
+.olive {
+  color: hsl(143, 26%, 47%);
+}
+.lime {
+  color: hsl(117, 93%, 71%);
+}
+.maroon {
+  color: hsl(9, 100%, 23%);
+}
+.orange {
+  color: hsl(33, 90%, 49%);
+}
+.purple {
+  color: hsl(285, 63%, 48%);
+}
+.red {
+  color: hsl(10, 82%, 55%);
+}
+.yellow {
+  color: hsl(53, 100%, 49%);
+}
+.fuchsia {
+  color: hsl(311, 69%, 54%);
+}
+.silver {
+  color: hsl(0, 0%, 87%);
+}
+.gray {
+  color: hsl(0, 0%, 67%);
+}
+.white {
+  color: hsl(0, 0%,100%);
+}
+.black {
+  color: hsl(0, 0%, 0%);
+}
+
+.border--aqua {
+  border-color: rgb(150, 218, 255);
+}
+.border--black {
+  border-color: rgb(0,0,0);
+}
+.border--blue {
+  border-color: rgb(50, 117, 218);
+}
+.border--fuchsia {
+  border-color: rgb(219, 56, 189);
+}
+.border--green {
+  border-color: rgb(103, 200, 65);
+}
+.border--lime {
+  border-color: rgb(120, 250, 113);
+}
+.border--maroon {
+  border-color: rgb(121, 32, 74);
+}
+.border--navy {
+  border-color: rgb(8, 31, 63);
+}
+.border--olive {
+  border-color: rgb(88, 151, 112);
+}
+.border--orange {
+  border-color: rgb(238, 137, 12);
+}
+.border--purple {
+  border-color: rgb(161, 45, 201);
+}
+.border--red {
+  border-color: rgb(234, 79, 48);
+}
+.border--silver {
+  border-color: rgb(221, 221, 221);
+}
+.border--gray {
+  border-color: rgb(170, 170, 170);
+}
+.border--teal {
+  border-color: rgb(107, 202, 205);
+}
+.border--white {
+  border-color: rgb(255, 255, 255);
+}
+.border--yellow {
+  border-color: rgb(249, 219, 0);
+}
+.fill-aqua {
+  fill: #7fdbff;
+}
+.fill-black {
+  fill: #111;
+}
+.fill-blue {
+  fill: blue;
+}
+.fill-fuchsia {
+  fill: fuchsia;
+}
+.fill-green {
+  fill: green;
+}
+.fill-lime {
+  fill: lime;
+}
+.fill-maroon {
+  fill: maroon;
+}
+.fill-navy {
+  fill: navy;
+}
+.fill-olive {
+  fill: olive;
+}
+.fill-orange {
+  fill: orange;
+}
+.fill-purple {
+  fill: purple;
+}
+.fill-red {
+  fill: red;
+}
+.fill-silver {
+  fill:silver;
+}
+.fill-gray {
+  fill: gray;
+}
+.fill-teal {
+  fill: teal;
+}
+.fill-white {
+  fill: white;
+}
+.fill-yellow {
+  fill: yellow;
+}
+.stroke-aqua {
+  stroke: #7fdbff;
+}
+.stroke-black {
+  stroke: #111;
+}
+.stroke-blue {
+  stroke: blue;
+}
+.stroke-fuchsia {
+  stroke: fuchsia;
+}
+.stroke-green {
+  stroke: green;
+}
+.stroke-lime {
+  stroke: lime;
+}
+.stroke-maroon {
+  stroke: maroon;
+}
+.stroke-navy {
+  stroke: navy;
+}
+.stroke-olive {
+  stroke: olive;
+}
+.stroke-orange {
+  stroke: orange;
+}
+.stroke-purple {
+  stroke: purple;
+}
+.stroke-red {
+  stroke: red;
+}
+.stroke-silver {
+  stroke: silver;
+}
+.stroke-gray {
+  stroke: gray;
+}
+.stroke-teal {
+  stroke: teal;
+}
+.stroke-white {
+  stroke: white;
+}
+.stroke-yellow {
+  stroke: yellow;
+}

@@ -1,0 +1,36 @@
+body {
+    background-image: url(background.png);    
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+p {
+    font-family: 'Courier New';
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: lightpink;
+    border-radius: 25px;
+    padding: 15px;
+    border: 1px solid palevioletred;
+}
+
+
+.question {
+    background-image: url(https://www.w3schools.com/css/mountain.jpg);
+    opacity: 0.5;
+    color: maroon;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#son {
+    font-family:Calibri;
+    text-align: right;
+}

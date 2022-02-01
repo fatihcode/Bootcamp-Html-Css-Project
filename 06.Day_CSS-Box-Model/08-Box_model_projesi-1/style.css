@@ -1,0 +1,181 @@
+/* Universal Styles */
+
+html{
+font-size: 18px;
+}
+
+body {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  /* background-image: linear-gradient(rgba(193, 233, 180, 0.5), rgba(167, 209, 156, 0.5)), url(background.jpg);  */
+  background-image: linear-gradient( 115deg, rgba(206, 238, 192, 0.8), rgba(73, 138, 68, 0.7)), url("./background.jpg");
+
+  background-attachment: fixed;
+  /* background-position: left; */
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navigation */
+
+nav {
+  text-align: center;
+  font-weight: bold;
+}
+
+nav img {
+  display: block;
+  height: 70px;
+  margin: 10px auto;
+}
+
+nav a {
+  font-size: 16px;
+  color: #1B2D0E;
+  /* font-weight: 100; */
+  letter-spacing: 2px;
+  padding: 10px 10px;
+  display: inlineblock;
+}
+
+nav a:hover {
+  background-color: #1B2D0E;
+  color: white;
+}
+
+
+.bn {
+  background-image: url(bn.png);
+  background-repeat: repeat-x;
+  /* height: 53px; */
+  background-size: auto 70px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+/* Content Container */
+
+.content {
+  width: 100%;
+  /* height: 500px; */
+  margin: 10px auto;
+  /* overflow-y: scroll; */
+}
+
+/* Content Header */
+
+.header {
+  background-image: url("./main_pizza.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 230px;
+
+}
+
+.header h1 {
+  background-color: #1B2D0E;
+  color: #FFF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1rem;
+  max-width: 373px;
+  padding: 20px;
+  margin: 0px auto;
+  border-radius: 0px 0px 15px 15px ;
+}
+
+
+/* Content Body */
+
+.content .body {
+  max-width: 750px;
+  margin: 0px auto;
+}
+
+
+
+.body p {
+  color: #1B2D0E;
+  font-weight: 500;
+  /* line-height: 34px; */
+  width: 90%;
+  margin: 20px auto;
+  line-height: 2rem;
+  text-align: center;
+ 
+}
+
+/* Content Button */
+
+.button {
+  border-radius: 4px;
+  color: #1B2D0E;
+  display: block;
+  font-weight: 700;
+  width: 200px;
+  padding: 20px;
+  margin: 30px auto;
+  border: 1px solid #1B2D0E
+
+}
+
+.button:hover {
+  background-color: #1B2D0E;
+  color: white;
+}
+
+/* Content Nutrition */
+
+ul.nutrition {
+  background-color: #1B2D0E;
+}
+
+ul.nutrition li {
+  /* background-color: #152e0e; */
+  display: inline-block;
+  list-style: none;
+  /* width: 150px; */
+  padding: 15px 15px;
+  /* margin-bottom: 3px; */
+  /* font-size: 1em; */
+  
+}
+
+.nutback{
+  height: 110px;
+  background-image: url(bg.png);
+  background-repeat: repeat-x;
+  width: 100%;
+  
+}
+
+.nutritians{
+  height: 142px;
+  background-image: url(nutritians.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: bottom;
+
+}
+
+
+.nutrition .category {
+  color: white;
+  font-weight: 300;
+  letter-spacing: 2px;
+  display: block;
+  font-size: 16px;
+}
+
+.nutrition .value {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+
+
